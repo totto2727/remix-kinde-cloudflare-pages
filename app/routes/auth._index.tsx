@@ -1,5 +1,5 @@
 import { getKindeSession } from "@kinde-oss/kinde-remix-sdk";
-import type { LoaderFunctionArgs } from "@remix-run/node";
+import type { LoaderFunctionArgs } from "@remix-run/cloudflare";
 import { Link, data, redirect, useLoaderData } from "@remix-run/react";
 
 export const loader = async ({ request }: LoaderFunctionArgs) => {

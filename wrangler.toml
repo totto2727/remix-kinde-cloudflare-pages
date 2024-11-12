@@ -1,0 +1,4 @@
+name = "remix-kinde-cloudflare"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "./build/client"
+compatibility_flags = [ "nodejs_compat" ]
